@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: linear-gradient(to bottom, rgb(252, 178, 81), rgb(48, 255, 227) );
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main .groceryItemsArea{
+    height: 70%;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgb(192, 252, 81), rgb(48, 145, 255) );
+    border: 2px solid rgb(0, 0, 0);
+}
+.heading{
+    text-align: center;
+}
+.input{
+    background: linear-gradient(to right bottom, rgb(187, 187, 187), rgb(246, 247, 248) );
+    border: 2px solid rgb(0, 0, 0);
+}
+.addBtn{
+    background: linear-gradient(to right bottom, rgb(192, 252, 81), rgb(48, 145, 255) );
+    border: 2px solid rgb(0, 0, 0);
+}
+.icon{
+    background-color: transparent;
+    border: none;
+}
+.clearBtn{
+    background: linear-gradient(to right bottom, rgb(192, 252, 81), rgb(48, 145, 255) );
+    border: 2px solid rgb(0, 0, 0);
+}

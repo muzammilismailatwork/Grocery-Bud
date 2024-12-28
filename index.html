@@ -23,14 +23,14 @@
                     <input type="text" class="w-100 input">
                 </div>
                 <div class="col-2 m-0 p-0">
-                    <button class="w-100 addBtn">Add</button>
+                    <button onclick="addItems()" class="w-100 addBtn">Add</button>
                 </div>
                 <div class="col-1"></div>
             </div>
     
             <!-- Grocery Items List -->
-            <div class="grocery-list">
-                <div class="row">
+            <div id="groceryList">
+                <!-- <div class="row">
                     <div class="col-1"></div>
                     <div class="col-8">
                         <h6>Eggs</h6>
@@ -68,14 +68,12 @@
                         <button class="icon"><i class="fa-solid fa-trash"></i></button>
                     </div>
                     <div class="col-1"></div>
-                </div>
+                </div> -->
             </div>
-    
-            <!-- Clear Items Button (moved to the bottom) -->
             <div class="row text-center mt-auto mb-2">
                 <div class="col-1"></div>
                 <div class="col-10 m-0 p-0">
-                    <button class="clearBtn w-100">Clear items</button>
+                    <button class="clearBtn w-100" onclick="clearAllItems()">Clear All items</button>
                 </div>
                 <div class="col-1"></div>
             </div>
